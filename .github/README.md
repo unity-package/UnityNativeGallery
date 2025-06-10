@@ -21,6 +21,12 @@ There are 5 ways to install this plugin:
   - `https://github.com/yasirkula/UnityNativeGallery.git`
 - *(via [OpenUPM](https://openupm.com))* after installing [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:
   - `openupm add com.yasirkula.nativegallery`
+- Add the line below to `Packages/manifest.json`
+  
+  for version v1.9.1
+  ```json
+  "com.yasirkula.nativegallery":"https://github.com/yasirkula/UnityNativeGallery.git#v1.9.1"
+  ```
 
 ### Android Setup
 
